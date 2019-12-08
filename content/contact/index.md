@@ -2,4 +2,4 @@
 title: 'Get In Touch'
 ---
 
-Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!
+**I am currently actively looking for research internships for 2020, and I also happen to have a very flexible time period! Feel free to shoot a mail below.**

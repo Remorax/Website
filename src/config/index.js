@@ -1,38 +1,27 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Vivek Iyer',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications.',
+    'Vivek Iyer is an IRE Researcher pursuing his Masters at IIIT, Hyderabad. His area of interest lies at the intersection of NLP and Deep Learning, and its applications in IRE.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Vivek Iyer, Vivek, Iyer, Remorax, NLP Researcher, IRE Researcher, AI Researcher, ML Researcher, Deep Learning Researcher, Ontologies, Knowledge Graphs, Google Summer of Code, Machine Learning, Deep Learning, Information Retrieval & Extraction, Natural Language Processing, Data Mining, Text Mining, Knowledge Representation, LSTM, IIIT Hyderabad, Open Source Developer, Open Source, FOSSASIA',
+  siteUrl: 'https://homeofremorax.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  name: 'Vivek Iyer',
+  location: 'Hyderabad, India',
+  email: 'vivek.iyer@research.iiit.ac.in',
+  github: 'https://github.com/Remorax',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/Remorax',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/vivekiyer98/',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      name: 'CV',
+      url: 'https://brittanychiang.com/resume.pdf',
     },
   ],
 
@@ -42,12 +31,12 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Experience',
-      url: '/#jobs',
-    },
-    {
       name: 'Work',
       url: '/#projects',
+    },
+    {
+      name: 'Experience',
+      url: '/#jobs',
     },
     {
       name: 'Contact',
