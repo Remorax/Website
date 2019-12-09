@@ -18,4 +18,4 @@ My research work revolves around **ontologies** and **knowledge graphs** and I'm
 
 Before starting out as a researcher, I used to work as an open source developer. My work in open source eventually led to me interning as a Software Developer for [XWiki](https://www.xwiki.org/xwiki/bin/view/Main/WebHome) at [**Google Summer of Code**](https://summerofcode.withgoogle.com/) 2018.
 
-Here are a few research areas I am interested in:
+Broadly, here are a few research areas I am interested in:

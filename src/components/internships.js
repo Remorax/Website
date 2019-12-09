@@ -154,7 +154,7 @@ const StyledTabContent = styled.div`
     ${mixins.inlineLink};
   }
 `;
-const StyledJobTitle = styled.h4`
+const StyledInternshipTitle = styled.h4`
   color: ${colors.lightestSlate};
   font-size: ${fontSizes.xxl};
   font-weight: 500;
@@ -163,7 +163,7 @@ const StyledJobTitle = styled.h4`
 const StyledCompany = styled.span`
   color: ${colors.green};
 `;
-const StyledJobDetails = styled.h5`
+const StyledInternshipDetails = styled.h5`
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smish};
   font-weight: normal;
@@ -175,14 +175,14 @@ const StyledJobDetails = styled.h5`
   }
 `;
 
-const Jobs = ({ data }) => {
-  const [activeTabId, setActiveTabId] = useState(0);
+const Internships = ({ data }) => {
+  const [activeTabId, setActiveTabId] = useState(1);
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
   return (
-    <StyledContainer id="jobs" ref={revealContainer}>
-      <Heading>Where I&apos;ve Worked</Heading>
+    <StyledContainer id="internships" ref={revealContainer}>
+      <Heading>Where I&rsquo;ve worked</Heading>
       <StyledTabs>
         <StyledTabList role="tablist">
           {data &&
@@ -219,7 +219,7 @@ const Jobs = ({ data }) => {
                   tabIndex="0"
                   aria-labelledby={`job${i}`}
                   aria-hidden={activeTabId !== i}>
-                  <StyledJobTitle>
+                  <StyledInternshipTitle>
                     <span>{title}</span>
                     <StyledCompany>
                       <span>&nbsp;@&nbsp;</span>
@@ -227,10 +227,10 @@ const Jobs = ({ data }) => {
                         {company}
                       </a>
                     </StyledCompany>
-                  </StyledJobTitle>
-                  <StyledJobDetails>
+                  </StyledInternshipTitle>
+                  <StyledInternshipDetails>
                     <span>{range}</span>
-                  </StyledJobDetails>
+                  </StyledInternshipDetails>
                   <div dangerouslySetInnerHTML={{ __html: html }} />
                 </StyledTabContent>
               );
@@ -241,8 +241,8 @@ const Jobs = ({ data }) => {
   );
 };
 
-Jobs.propTypes = {
+Internships.propTypes = {
   data: PropTypes.array.isRequired,
 };
 
-export default Jobs;
+export default Internships;

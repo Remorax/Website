@@ -35,7 +35,7 @@ const StyledArchiveLink = styled(Link)`
 const StyledGrid = styled.div`
   margin-top: 50px;
 
-  .projects {
+  .research {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 15px;
@@ -43,7 +43,7 @@ const StyledGrid = styled.div`
     ${media.desktop`grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));`};
   }
 `;
-const StyledProjectInner = styled.div`
+const StyledResearchInner = styled.div`
   ${mixins.boxShadow};
   ${mixins.flexBetween};
   flex-direction: column;
@@ -55,18 +55,18 @@ const StyledProjectInner = styled.div`
   transition: ${theme.transition};
   background-color: ${colors.lightNavy};
 `;
-const StyledProject = styled.div`
+const StyledResearch = styled.div`
   transition: ${theme.transition};
   cursor: default;
   &:hover,
   &:focus {
     outline: 0;
-    ${StyledProjectInner} {
+    ${StyledResearchInner} {
       transform: translateY(-5px);
     }
   }
 `;
-const StyledProjectHeader = styled.div`
+const StyledResearchHeader = styled.div`
   ${mixins.flexBetween};
   margin-bottom: 30px;
 `;
@@ -77,7 +77,7 @@ const StyledFolder = styled.div`
     height: 40px;
   }
 `;
-const StyledProjectLinks = styled.div`
+const StyledResearchLinks = styled.div`
   margin-right: -10px;
   color: ${colors.lightSlate};
 `;
@@ -90,12 +90,12 @@ const StyledIconLink = styled.a`
     height: 20px;
   }
 `;
-const StyledProjectName = styled.h5`
+const StyledResearchName = styled.h5`
   margin: 0 0 10px;
   font-size: ${fontSizes.xxl};
   color: ${colors.lightestSlate};
 `;
-const StyledProjectDescription = styled.div`
+const StyledResearchDescription = styled.div`
   font-size: 17px;
   color: ${colors.lightSlate};
   a {
@@ -123,34 +123,34 @@ const StyledMoreButton = styled(Button)`
   margin: 100px auto 0;
 `;
 
-const Projects = ({ data }) => {
+const Research = ({ data }) => {
   const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
   const revealArchiveLink = useRef(null);
-  const revealProjects = useRef([]);
+  const revealResearch = useRef([]);
 
   useEffect(() => {
     sr.reveal(revealTitle.current, srConfig());
     sr.reveal(revealArchiveLink.current, srConfig());
-    revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
+    revealResearch.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
   const GRID_LIMIT = 6;
-  const projects = data.filter(({ node }) => node.frontmatter.show === 'true');
-  const firstSix = projects.slice(0, GRID_LIMIT);
-  const projectsToShow = showMore ? projects : firstSix;
+  const research = data.filter(({ node }) => node.frontmatter.show === 'true');
+  const firstSix = research.slice(0, GRID_LIMIT);
+  const researchToShow = showMore ? research : firstSix;
 
   return (
     <StyledContainer>
-      <StyledTitle ref={revealTitle}>Other Noteworthy Projects</StyledTitle>
+      <StyledTitle ref={revealTitle}>Other Noteworthy Research</StyledTitle>
       <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
         view the archive
       </StyledArchiveLink>
 
       <StyledGrid>
-        <TransitionGroup className="projects">
-          {projectsToShow &&
-            projectsToShow.map(({ node }, i) => {
+        <TransitionGroup className="research">
+          {researchToShow &&
+            researchToShow.map(({ node }, i) => {
               const { frontmatter, html } = node;
               const { github, external, title, tech } = frontmatter;
               return (
@@ -159,20 +159,20 @@ const Projects = ({ data }) => {
                   classNames="fadeup"
                   timeout={i >= GRID_LIMIT ? (i - GRID_LIMIT) * 300 : 300}
                   exit={false}>
-                  <StyledProject
+                  <StyledResearch
                     key={i}
-                    ref={el => (revealProjects.current[i] = el)}
+                    ref={el => (revealResearch.current[i] = el)}
                     tabIndex="0"
                     style={{
                       transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 100 : 0}ms`,
                     }}>
-                    <StyledProjectInner>
+                    <StyledResearchInner>
                       <header>
-                        <StyledProjectHeader>
+                        <StyledResearchHeader>
                           <StyledFolder>
                             <IconFolder />
                           </StyledFolder>
-                          <StyledProjectLinks>
+                          <StyledResearchLinks>
                             {github && (
                               <StyledIconLink
                                 href={github}
@@ -191,10 +191,10 @@ const Projects = ({ data }) => {
                                 <IconExternal />
                               </StyledIconLink>
                             )}
-                          </StyledProjectLinks>
-                        </StyledProjectHeader>
-                        <StyledProjectName>{title}</StyledProjectName>
-                        <StyledProjectDescription dangerouslySetInnerHTML={{ __html: html }} />
+                          </StyledResearchLinks>
+                        </StyledResearchHeader>
+                        <StyledResearchName>{title}</StyledResearchName>
+                        <StyledResearchDescription dangerouslySetInnerHTML={{ __html: html }} />
                       </header>
                       <footer>
                         <StyledTechList>
@@ -203,8 +203,8 @@ const Projects = ({ data }) => {
                           ))}
                         </StyledTechList>
                       </footer>
-                    </StyledProjectInner>
-                  </StyledProject>
+                    </StyledResearchInner>
+                  </StyledResearch>
                 </CSSTransition>
               );
             })}
@@ -218,8 +218,8 @@ const Projects = ({ data }) => {
   );
 };
 
-Projects.propTypes = {
+Research.propTypes = {
   data: PropTypes.array.isRequired,
 };
 
-export default Projects;
+export default Research;

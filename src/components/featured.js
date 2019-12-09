@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
-import { IconGitHub, IconExternal } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -32,13 +31,25 @@ const StyledLabel = styled.h4`
   margin-top: 10px;
   padding-top: 0;
 `;
-const StyledProjectName = styled.h5`
+const StyledResearchName = styled.h5`
   font-size: 28px;
   font-weight: 600;
   margin: 0 0 20px;
   color: ${colors.lightestSlate};
   ${media.tablet`font-size: 24px;`};
   ${media.thone`color: ${colors.white};`};
+  a {
+    ${media.tablet`display: block;`};
+  }
+`;
+const StyledOverallDescription = styled.h6`
+  position: relative;
+  z-index: 2;
+  padding: 25px;
+  color: ${colors.lightSlate};
+  width: 100%;
+  text-align: center;
+  font-size: ${fontSizes.xxl};
   a {
     ${media.tablet`display: block;`};
   }
@@ -157,7 +168,7 @@ const StyledImgContainer = styled.a`
     mix-blend-mode: screen;
   }
 `;
-const StyledProject = styled.div`
+const StyledResearch = styled.div`
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(12, 1fr);
@@ -203,30 +214,29 @@ const StyledProject = styled.div`
 `;
 
 const Featured = ({ data }) => {
-  const featuredProjects = data.filter(({ node }) => node.frontmatter.show === 'true');
+  const featuredResearch = data.filter(({ node }) => node.frontmatter.show === 'true');
 
   const revealTitle = useRef(null);
-  const revealProjects = useRef([]);
+  const revealResearch = useRef([]);
   useEffect(() => {
     sr.reveal(revealTitle.current, srConfig());
-    revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
+    revealResearch.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
   return (
-    <StyledContainer id="projects">
-      <Heading ref={revealTitle}>Research Projects</Heading>
-
+    <StyledContainer id="research">
+      <Heading ref={revealTitle}>My Research Projects</Heading>
       <div>
-        {featuredProjects &&
-          featuredProjects.map(({ node }, i) => {
+        {featuredResearch &&
+          featuredResearch.map(({ node }, i) => {
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover } = frontmatter;
 
             return (
-              <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
+              <StyledResearch key={i} ref={el => (revealResearch.current[i] = el)}>
                 <StyledContent>
-                  <StyledLabel>Featured Project</StyledLabel>
-                  <StyledProjectName>
+                  <StyledLabel>Research Project</StyledLabel>
+                  <StyledResearchName>
                     {external ? (
                       <a
                         href={external}
@@ -238,7 +248,7 @@ const Featured = ({ data }) => {
                     ) : (
                       title
                     )}
-                  </StyledProjectName>
+                  </StyledResearchName>
                   <StyledDescription dangerouslySetInnerHTML={{ __html: html }} />
                   {tech && (
                     <StyledTechList>
@@ -247,26 +257,6 @@ const Featured = ({ data }) => {
                       ))}
                     </StyledTechList>
                   )}
-                  <StyledLinkWrapper>
-                    {github && (
-                      <a
-                        href={github}
-                        target="_blank"
-                        rel="nofollow noopener noreferrer"
-                        aria-label="GitHub Link">
-                        <IconGitHub />
-                      </a>
-                    )}
-                    {external && (
-                      <a
-                        href={external}
-                        target="_blank"
-                        rel="nofollow noopener noreferrer"
-                        aria-label="External Link">
-                        <IconExternal />
-                      </a>
-                    )}
-                  </StyledLinkWrapper>
                 </StyledContent>
 
                 <StyledImgContainer
@@ -275,10 +265,16 @@ const Featured = ({ data }) => {
                   rel="nofollow noopener noreferrer">
                   <StyledFeaturedImg fluid={cover.childImageSharp.fluid} />
                 </StyledImgContainer>
-              </StyledProject>
+              </StyledResearch>
             );
           })}
       </div>
+      <StyledOverallDescription>
+        For a more detailed look at my research work, do check out my{' '}
+        <a href="/ResearchProfile.pdf" target="_blank" rel="nofollow noopener noreferrer">
+          <i>research profile.</i>
+        </a>
+      </StyledOverallDescription>
     </StyledContainer>
   );
 };

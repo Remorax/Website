@@ -1,8 +1,8 @@
 ---
 title: 'Hi, my name is'
 name: 'Vivek Iyer'
-subtitle: 'IRE Researcher, IIIT-H'
+subtitle: 'I work towards making machines intelligent.'
 contactText: 'Get In Touch'
 ---
 
-I am a final year Research student pursuing MS by Research in Computer Science at IIIT, Hyderabad. My area of interest lies at the intersection of NLP and Deep Learning, and its applications in IRE, particularly **ontologies** and **knowledge graphs**.
+I am an IRE Research student pursuing B.Tech and MS by Research at IIIT, Hyderabad. My area of research interest lies at the intersection of NLP and Deep Learning, and its applications in IRE, particularly **ontologies** and **knowledge graphs**.
