@@ -2,8 +2,8 @@
 title: 'About Me'
 avatar: './me.jpg'
 skills:
-  - Information Retrieval and Extraction
-  - Natural Language Understanding
+  - NLP
+  - IRE
   - Deep Learning
   - Machine Learning
   - Semantic Web
@@ -12,10 +12,10 @@ skills:
   - Knowledge Graphs
 ---
 
-Hello! I'm Vivek, an **IRE** researcher at [IIIT Hyderabad](https://www.iiit.ac.in/), where I am currently pursuing B.Tech + MS by Research in Computer Science.
+Hello! I'm Vivek, an **IRE** researcher at [IIIT Hyderabad](https://www.iiit.ac.in/), where I am currently pursuing my B.Tech and MS by Research in Computer Science.
 
-My research work revolves around **ontologies** and **knowledge graphs** and I'm currently working on a variety of projects in this domain, the most notable of which involves using a combination of NLP and Deep Learning algorithms to automatically enrich ontologies from text.
+My research work primarily revolves around **ontologies** and **knowledge graphs** and I am currently working on the application of Deep Learning models such as LSTMs in the field of Ontology Enrichment from Text.
 
-Before starting out as a researcher, I used to work as an open source developer. My work in open source eventually led to me interning as a Software Developer for [XWiki](https://www.xwiki.org/xwiki/bin/view/Main/WebHome) at [**Google Summer of Code**](https://summerofcode.withgoogle.com/) 2018.
+Before starting out as a researcher, I used to contribute extensively to Open Source and eventually interned as a Student Developer for [XWiki](https://www.xwiki.org/xwiki/bin/view/Main/WebHome) as part of [**Google Summer of Code**](https://summerofcode.withgoogle.com/) 2018.
 
 Broadly, here are a few research areas I am interested in:

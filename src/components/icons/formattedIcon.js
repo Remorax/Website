@@ -6,6 +6,8 @@ import {
   IconCodepen,
   IconInstagram,
   IconTwitter,
+  IconGoogle,
+  IconGitter,
   IconCV,
 } from '@components/icons';
 
@@ -13,6 +15,8 @@ const FormattedIcon = ({ name }) => {
   switch (name) {
     case 'GitHub':
       return <IconGitHub />;
+    case 'Google':
+      return <IconGoogle />;
     case 'Linkedin':
       return <IconLinkedin />;
     case 'Codepen':
@@ -23,6 +27,8 @@ const FormattedIcon = ({ name }) => {
       return <IconTwitter />;
     case 'CV':
       return <IconCV />;
+    case 'Gitter':
+      return <IconGitter />;
     default:
       return <IconGitHub />;
   }

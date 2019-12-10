@@ -12,8 +12,16 @@ module.exports = {
   github: 'https://github.com/Remorax',
   socialMedia: [
     {
+      name: 'Google',
+      url: 'mailto:vivekbalasundaram@gmail.com',
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/Remorax',
+    },
+    {
+      name: 'Gitter',
+      url: 'https://gitter.im/remorax',
     },
     {
       name: 'Linkedin',
@@ -21,7 +29,7 @@ module.exports = {
     },
     {
       name: 'CV',
-      url: 'https://brittanychiang.com/resume.pdf',
+      url: 'https://homeofremorax.com/resume.pdf',
     },
   ],
 
@@ -36,7 +44,7 @@ module.exports = {
     },
     {
       name: 'Internships',
-      url: '/#Internships',
+      url: '/#internships',
     },
     {
       name: 'Contact',

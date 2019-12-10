@@ -136,7 +136,7 @@ const Research = ({ data }) => {
   const researchToShow = research;
 
   return (
-    <StyledContainer>
+    <StyledContainer id="projects">
       <StyledTitle ref={revealTitle}>Other Noteworthy Projects</StyledTitle>
       <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
         view the archive

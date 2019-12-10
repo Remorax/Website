@@ -1,13 +1,12 @@
 ---
-date: '2017-03-01'
-title: 'Crowd DJ'
-github: 'https://github.com/crowddj/crowddj-react'
+date: '2017-09-01'
+title: 'AFrame Website'
+github: 'https://github.com/Remorax/AFrame-Website'
 external: ''
 tech:
-  - React
-  - Firebase
-  - Spotify API
-company: HackBeanpot 2017
+  - AFrame
+  - WebVR
+company: Mozilla Club
 show: 'false'
 ---
 

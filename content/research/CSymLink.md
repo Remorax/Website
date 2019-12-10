@@ -1,14 +1,12 @@
 ---
-date: '2016-04-01'
-title: 'CourseSource'
-github: 'https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project'
+date: '2017-08-01'
+title: 'Symbolic Link C implementation'
+github: 'https://github.com/Remorax/Symlink-implementation-in-C'
 external: ''
 tech:
-  - Angular
-  - Node
-  - Express
-  - MongoDB
-company: 'Northeastern'
+  - Symbolic Links
+  - C
+company: 'IIIT'
 show: 'false'
 ---
 
