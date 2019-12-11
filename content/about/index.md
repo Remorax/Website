@@ -16,6 +16,6 @@ Hello! I'm Vivek, an **IRE** researcher at [IIIT Hyderabad](https://www.iiit.ac.
 
 My research work primarily revolves around **ontologies** and **knowledge graphs** and I am currently working on the application of Deep Learning models such as LSTMs in the field of Ontology Enrichment from Text.
 
-Before starting out as a researcher, I used to contribute extensively to Open Source and eventually interned as a Student Developer for [XWiki](https://www.xwiki.org/xwiki/bin/view/Main/WebHome) as part of [**Google Summer of Code**](https://summerofcode.withgoogle.com/) 2018.
+Before starting out as a researcher, I worked as a Student Developer for [XWiki](https://www.xwiki.org/xwiki/bin/view/Main/WebHome) as part of [Google Summer of Code](https://summerofcode.withgoogle.com/) 2018.
 
-Broadly, here are a few research areas I am interested in:
+I am currently actively looking for research internships for 2020! Broadly, here are a few areas I am interested in:

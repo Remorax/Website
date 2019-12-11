@@ -4,7 +4,7 @@ module.exports = {
     'Vivek Iyer is an IRE Researcher pursuing his Masters at IIIT, Hyderabad. His area of interest lies at the intersection of NLP and Deep Learning, and its applications in IRE.',
   siteKeywords:
     'Vivek Iyer, Vivek, Iyer, Remorax, NLP Researcher, IRE Researcher, AI Researcher, ML Researcher, Deep Learning Researcher, Ontologies, Knowledge Graphs, Google Summer of Code, Machine Learning, Deep Learning, Information Retrieval & Extraction, Natural Language Processing, Data Mining, Text Mining, Knowledge Representation, LSTM, IIIT Hyderabad, Open Source Developer, Open Source, FOSSASIA',
-  siteUrl: 'https://homeofremorax.com',
+  siteUrl: 'https://remorax.netlify.com',
   siteLanguage: 'en_US',
   name: 'Vivek Iyer',
   location: 'Hyderabad, India',
@@ -29,7 +29,7 @@ module.exports = {
     },
     {
       name: 'CV',
-      url: 'https://homeofremorax.com/resume.pdf',
+      url: '/MyResume.pdf',
     },
   ],
 
