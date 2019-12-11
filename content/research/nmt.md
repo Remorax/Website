@@ -1,5 +1,5 @@
 ---
-date: '2018-09-20'
+date: '2019-03-20'
 title: 'Neural Machine Translation'
 github: 'https://github.com/Remorax/Machine-Translation'
 external: ''

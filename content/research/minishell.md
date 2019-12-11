@@ -1,8 +1,8 @@
 ---
 date: '2017-09-01'
 title: 'Mini Shell'
-github: ''
-external: 'https://github.com/Remorax/mini-shell'
+external: ''
+github: 'https://github.com/Remorax/mini-shell'
 tech:
   - C
   - Shell

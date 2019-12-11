@@ -1,14 +1,12 @@
 ---
-date: '2015-12-01'
-title: 'One Card For All'
-github: ''
-external: 'https://us.mullenlowe.com/work/one-card-for-all/'
+date: '2018-03-16'
+title: 'Proxy Server'
+github: 'https://github.com/Remorax/proxy-server'
+external: ''
 tech:
-  - HTML
-  - SCSS
-  - JS
-  - jQuery
-company: 'MullenLowe'
+  - Python
+  - Proxy Servers
+company: 'IIIT'
 show: 'false'
 ---
 

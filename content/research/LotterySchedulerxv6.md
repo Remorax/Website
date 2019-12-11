@@ -1,14 +1,13 @@
 ---
-date: '2017-12-27'
-title: 'Halcyon Theme'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+date: '2017-11-04'
+title: 'Lottery Scheduler in xv6'
+github: 'https://github.com/Remorax/LotteryScheduler-xv6'
+external: ''
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - Lottery Scheduler
+  - C
+  - xv6 OS
+company: 'IIIT'
 show: 'false'
 ---
 

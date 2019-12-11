@@ -1,5 +1,5 @@
 ---
-date: '2018-10-09'
+date: '2019-04-09'
 title: 'Wiki Article Generator'
 github: 'https://github.com/Remorax/HindiWikiGenerator'
 external: ''

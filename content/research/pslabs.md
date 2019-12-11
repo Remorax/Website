@@ -1,14 +1,13 @@
 ---
-date: '2017-06-22'
-title: 'Lonely Planet DBMS'
-github: 'https://github.com/bchiang7/CS3200-Project'
+date: '2017-11-29'
+title: 'PSLab'
+github: 'https://github.com/Remorax/pslab.fossasia.org'
 external: ''
 tech:
-  - Python
-  - MySQL
-  - Flask
-  - JS
-company: 'Northeastern'
+  - HTML
+  - Javascript
+  - CSS
+company: 'FOSSASIA'
 show: 'false'
 ---
 

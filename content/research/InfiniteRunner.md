@@ -1,13 +1,13 @@
 ---
-date: '2016-11-01'
-title: 'Screentime 2.0'
-github: ''
-external: 'https://play.google.com/store/apps/details?id=com.starry.management&hl=en_US'
+date: '2018-04-29'
+title: 'Infinite Runner'
+github: 'https://github.com/Remorax/webgl-infinite-runner'
+external: ''
 tech:
-  - Cordova
-  - Backbone
-  - Marionette
-company: 'Starry'
+  - WebGL
+  - Javascript
+
+company: 'IIIT'
 show: 'false'
 ---
 

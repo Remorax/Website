@@ -1,13 +1,14 @@
 ---
 date: '2017-08-01'
-title: 'Interventions'
-github: ''
-external: 'https://interventions.design/'
+title: 'Pacman Killer game'
+github: 'https://github.com/Remorax/opengl-pacmankiller'
+external: ''
 tech:
-  - Jekyll
-  - SCSS
-  - JS
-company: 'Scout'
+  - OpenGL
+  - Unix
+  - C++
+
+company: 'IIIT'
 show: 'false'
 ---
 

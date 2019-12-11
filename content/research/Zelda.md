@@ -1,14 +1,14 @@
 ---
-date: '2015-10-01'
-title: 'JetBlue HumanKinda'
-github: ''
-external: 'http://jetbluehumankinda.com/'
+date: '2018-02-18'
+title: 'Legend of Zelda'
+github: 'https://github.com/Remorax/opengl-zelda'
+external: ''
 tech:
-  - Tumblr
-  - HTML
-  - CSS
-  - JS
-company: 'MullenLowe'
+  - OpenGL
+  - C++
+  - Unix
+
+company: 'IIIT'
 show: 'false'
 ---
 

@@ -1,12 +1,15 @@
 ---
-date: '2019-07-15'
-title: 'OctoProfile'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+date: '2018-03-15'
+title: 'Susper Search Engine'
+github: 'https://github.com/Remorax/susper.com'
+external: ''
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - Search Engine
+  - HTML
+  - CSS
+  - Javascript
+  - AngularJS
+company: 'FOSSASIA'
 show: 'false'
 ---
 

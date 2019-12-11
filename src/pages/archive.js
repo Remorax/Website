@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
 import { Layout } from '@components';
-import { IconGitHub, IconExternal } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media, Main } from '@styles';
 const { colors, fonts, fontSizes } = theme;
@@ -87,6 +86,7 @@ const StyledTable = styled.table`
       color: ${colors.lightestSlate};
       font-size: ${fontSizes.xl};
       font-weight: 700;
+      width: 35%;
     }
     &.company {
       width: 15%;
@@ -98,9 +98,10 @@ const StyledTable = styled.table`
       font-family: ${fonts.SFMono};
     }
     &.links {
+      width: 10%;
       span {
         ${mixins.flexBetween};
-        a + a {
+        a {
           margin-left: 10px;
         }
         svg {
@@ -143,20 +144,27 @@ const ArchivePage = ({ location, data }) => {
               <tr>
                 <th>Year</th>
                 <th>Title</th>
-                <th className="hide-on-mobile">Made at</th>
-                <th className="hide-on-mobile">Built with</th>
-                <th>Link</th>
+                <th className="hide-on-mobile">Made for</th>
+                <th className="hide-on-mobile">Tags</th>
               </tr>
             </thead>
             <tbody>
               {research.length > 0 &&
                 research.map(({ node }, i) => {
-                  const { date, github, external, title, tech, company } = node.frontmatter;
+                  const { date, github, title, tech, company } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealResearch.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
 
-                      <td className="title">{title}</td>
+                      <td className="title">
+                        <a
+                          href={github}
+                          target="_blank"
+                          rel="nofollow noopener noreferrer"
+                          aria-label="GitHub Link">
+                          {title}
+                        </a>
+                      </td>
 
                       <td className="company hide-on-mobile">
                         {company ? <span>{company}</span> : <span>—</span>}
@@ -170,33 +178,6 @@ const ArchivePage = ({ location, data }) => {
                               {i !== tech.length - 1 && <span>&nbsp;&middot;&nbsp;</span>}
                             </span>
                           ))}
-                      </td>
-
-                      <td className="links">
-                        <span>
-                          {github ? (
-                            <a
-                              href={github}
-                              target="_blank"
-                              rel="nofollow noopener noreferrer"
-                              aria-label="GitHub Link">
-                              <IconGitHub />
-                            </a>
-                          ) : (
-                            <span aria-label="Empty">—</span>
-                          )}
-                          {external ? (
-                            <a
-                              href={external}
-                              target="_blank"
-                              rel="nofollow noopener noreferrer"
-                              aria-label="External Link">
-                              <IconExternal />
-                            </a>
-                          ) : (
-                            <span aria-label="Empty">—</span>
-                          )}
-                        </span>
                       </td>
                     </tr>
                   );

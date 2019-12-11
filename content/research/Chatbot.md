@@ -1,5 +1,5 @@
 ---
-date: '2019-07-08'
+date: '2019-08-01'
 title: 'FAQ Chatbot'
 github: 'https://github.com/Remorax/FAQ-Chatbot'
 external: ''

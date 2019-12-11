@@ -1,5 +1,5 @@
 ---
-date: '2018-11-29'
+date: '2019-07-29'
 title: 'Question Generation System'
 github: 'https://github.com/Remorax/Question-Generator'
 external: ''
