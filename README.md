@@ -1,3 +1,3 @@
 # README
 
-Source code for my personal website 
+This repository contains the source code for my professional website 
