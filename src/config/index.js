@@ -29,7 +29,7 @@ module.exports = {
     },
     {
       name: 'CV',
-      url: '/MyResume.pdf',
+      url: '/Resumev2.pdf',
     },
   ],
 
