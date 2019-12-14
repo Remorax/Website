@@ -1,5 +1,5 @@
 ---
-date: '2017-08-01'
+date: '2019-07-31'
 title: 'Resume Parser'
 github: 'https://github.com/Remorax/ZIngHR/tree/master/ml-resume-parser-master'
 external: ''
@@ -11,7 +11,7 @@ tech:
   - Regex
 
 company: 'ZingHR'
-show: 'false'
+show: 'true'
 ---
 
-Online version of my 2016 resume made for fun. I was interested in learning React.js, so I found a simple tutorial and it spun into a weekend project.
+A Python resume parser that uses **Machine Learning** to identify different sections in a resume and **NLTK** to parse them.
