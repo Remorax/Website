@@ -11,4 +11,4 @@ tech:
 show: 'true'
 ---
 
-A Deep Learning solution to Ontology Enrichment. We use an LSTM with an integrated (path-based and distributional) model to semantically understand sentence structure in order to extract relevant concepts and relationships.
+A Deep Learning solution to Ontology Enrichment. We use an LSTM with an integrated (path-based and distributional) model to semantically understand sentence structure in order to extract relevant concepts and relationships. **Ongoing for [SIGKDD 2020](https://www.kdd.org/kdd2020/)**
