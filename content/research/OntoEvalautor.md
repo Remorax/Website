@@ -1,7 +1,7 @@
 ---
 date: '2019-11-20'
 title: 'Ontology Quality Evaluator'
-github: 'https://github.com/Remorax/OntoEvaluator'
+github: 'https://github.com/Remorax/OntoValidator/tree/master/Evaluator'
 external: ''
 tech:
   - Ontology Quality
