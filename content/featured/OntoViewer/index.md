@@ -2,7 +2,7 @@
 date: '1'
 title: 'Ontology Visualization & Validation'
 cover: './OntoViewer.png'
-external: 'https://github.com/Remorax/OntoValidator/tree/master/Validator'
+external: 'https://github.com/Remorax/SIREN-Research/tree/master/OntoViewer'
 tech:
   - WebVOWL
   - Crowdsourcing

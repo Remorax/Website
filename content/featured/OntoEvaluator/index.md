@@ -2,7 +2,7 @@
 date: '2'
 title: 'Ontology Evaluator'
 cover: './OntoEvaluatorResults.png'
-external: 'https://github.com/Remorax/OntoValidator/tree/master/Evaluator'
+external: 'https://github.com/Remorax/OntoEvaluator'
 tech:
   - Ontology Ranking
   - Machine Learning
