@@ -3,7 +3,7 @@ date: '2'
 title: 'Ontology Evaluator'
 cover: './OntoEvaluatorResults.png'
 github
-external: 'https://github.com/Remorax/ontoevaluator-flask'
+external: 'https://github.com/Remorax/OntoEvaluator'
 tech:
   - Ontology Ranking
   - Machine Learning
