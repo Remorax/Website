@@ -271,7 +271,7 @@ const Featured = ({ data }) => {
       </div>
       <StyledOverallDescription>
         For a more detailed look at my research work, do check out my{' '}
-        <a href="/ResearchProfile.pdf" target="_blank" rel="nofollow noopener noreferrer">
+        <a href="/Research_Profile.pdf" target="_blank" rel="nofollow noopener noreferrer">
           <i>research profile.</i>
         </a>
       </StyledOverallDescription>
