@@ -3,7 +3,7 @@ date: '2'
 title: 'Software Developer Intern (AR)'
 company: '5Fing3rs'
 location: 'Hyderabad, India'
-range: 'July - Dec 2016'
+range: 'July - Dec 2017'
 url: 'http://www.5fing3rs.com/'
 ---
 
