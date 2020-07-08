@@ -176,7 +176,7 @@ const StyledInternshipDetails = styled.h5`
 `;
 
 const Internships = ({ data }) => {
-  const [activeTabId, setActiveTabId] = useState(1);
+  const [activeTabId, setActiveTabId] = useState(0);
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
