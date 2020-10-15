@@ -1,12 +1,14 @@
 ---
 date: '5'
-title: 'Teaching Assistant'
+title: 'MS Research Assistant'
 company: 'IIIT-H'
 location: 'Hyderabad, India'
-range: 'May - June 2019'
+range: 'August 2020 - Current'
 url: 'https://www.iiit.ac.in/'
 ---
 
-- I was a Teaching Assistant (TA) as part of the [Broadridge Executive Summer Training Program](http://blogs.iiit.ac.in/monthly_news/broadridge-executive-technology-program-on-software-engineering/) at IIIT, Hyderabad.
-- My work as TA involved taking tutorials and lab sessions for ~50 [Broadridge](https://www.broadridge.com/intl/) executives on a variety of topics including Object Oriented Programming, Databases, Software Quality Engineering and Cryptography
-- The tutorials consisted of teaching theory topics and resolving doubts, while the lab sessions involved setting tasks for the students to code and guiding them towards the solution.
+- Working on Ontology Enrichment, Ontology Quality Evaluation and Validation under the mentorship of [Prof. Raghu Reddy](https://www.iiit.ac.in/people/faculty/raghureddy/) and [Prof. Vasudeva Varma](https://faculty.iiit.ac.in/~vv/Home.html)
+
+- The work on **Ontology Enrichment and Evaluation** is part of the SIREN project for building a **domain-specific search engine**, and is funded by the [**Department of Science and Technology (DST)**](https://dst.gov.in/), Government of India.
+
+- Has resulted in submissions to **ICON 2019, ICSE 2020, WWW 2020** etc

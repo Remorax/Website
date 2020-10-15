@@ -2,13 +2,11 @@
 date: '6'
 title: 'NLP Research Intern'
 company: 'IBM Research'
-location: 'Remote'
-range: 'May 2020 - Current'
+location: 'New Delhi'
+range: 'May 2020 - August 2020'
 url: 'https://www.research.ibm.com/'
 ---
 
-- Currently working on developing a Deep-Learning based solution to solve the problem of Ontology Alignment in an effort to beat AML, the state-of-the-art that uses rule-based techniques.
-
-- The focus is on detection of simple equivalence relationships, therefore we are currently working on incorporating graph attention-based algorithms to detect equivalence by representing a node both as a function of its own name and its neighbourhood.
-
-- Doing so enables us to exploit both the syntactic and semantic structure of ontologies
+- Worked on **Ontology Alignment** using dual attention mechanism under the mentorship of [Arvind Agarwal](https://researcher.watson.ibm.com/researcher/view.php?person=in-arvagarw)
+- Successfully completed the given tasks by **defeating SOTA systems** which had been developed over the past 10 years and developed over that time period, in a period of **just 3 months**
+- Resulted in a submission to **AAAI 2021** and the competition OAEI 2020, conducted as part of **ISWC 2020**

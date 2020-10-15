@@ -5,4 +5,4 @@ subtitle: 'I work towards making machines intelligent.'
 contactText: 'Get In Touch'
 ---
 
-I am an IRE Research student pursuing B.Tech and MS by Research at IIIT, Hyderabad. My area of research interest lies at the intersection of NLP and Deep Learning, and its applications in IRE, particularly **ontologies** and **knowledge graphs**.
+I am an an MS student and Research Assistant at IIIT, Hyderabad. My primary area of research interest lies in the application of NLP and Deep Learning algorithms in the domain of **Knowledge Acquisition, Representation and Reasoning**.

@@ -1,13 +1,15 @@
 ---
 date: '1'
 title: 'Ontology Visualization & Validation'
-cover: './OntoViewer.png'
-external: 'https://github.com/Remorax/SIREN-Research/tree/master/OntoViewer'
+cover: './OntoValidator.jpg'
+external: 'https://github.com/Remorax/OntoEvaluator'
+conference: 'N/A (Ongoing)'
 tech:
-  - WebVOWL
+  - Quality Evaluation
+  - Domain Prediction from Text
+  - Social Media Credibility
   - Crowdsourcing
-  - Twitter Credibility
 show: 'true'
 ---
 
-An ontology validation tool that uses **crowdsourcing** with **[Twitter credibility](https://github.com/Remorax/SIREN-Research/tree/master/OntoViewer/TweetCredibility)** as quality control for validating ontologies.
+Evaluates an ontology for **syntactic quality** using Machine Learning and **semantic quality** by crowdsourced validation. **Twitter credibility** is used for quality control, which is determined by using Deep Learning to assess **domain relevance** of tweets & pages followed.

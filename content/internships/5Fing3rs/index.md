@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'Software Developer Intern (AR)'
+title: 'Applied Computer Vision Intern (AR)'
 company: '5Fing3rs'
 location: 'Hyderabad, India'
 range: 'July - Dec 2017'

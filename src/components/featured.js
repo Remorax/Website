@@ -34,7 +34,7 @@ const StyledLabel = styled.h4`
 const StyledResearchName = styled.h5`
   font-size: 28px;
   font-weight: 600;
-  margin: 0 0 20px;
+  margin: 0 0 2px;
   color: ${colors.lightestSlate};
   ${media.tablet`font-size: 24px;`};
   ${media.thone`color: ${colors.white};`};
@@ -42,6 +42,7 @@ const StyledResearchName = styled.h5`
     ${media.tablet`display: block;`};
   }
 `;
+
 const StyledOverallDescription = styled.h6`
   position: relative;
   z-index: 2;
@@ -269,12 +270,7 @@ const Featured = ({ data }) => {
             );
           })}
       </div>
-      <StyledOverallDescription>
-        For a more detailed look at my research work, do check out my{' '}
-        <a href="/Research_Profile.pdf" target="_blank" rel="nofollow noopener noreferrer">
-          <i>research profile.</i>
-        </a>
-      </StyledOverallDescription>
+      <StyledOverallDescription></StyledOverallDescription>
     </StyledContainer>
   );
 };

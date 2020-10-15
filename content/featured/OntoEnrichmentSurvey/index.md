@@ -3,6 +3,7 @@ date: '0'
 title: 'Ontology Enrichment Survey'
 cover: './OntoEnrichmentSurvey.jpeg'
 external: 'https://github.com/Remorax/SIREN-Research/tree/master/OntologyEnrichment-Survey'
+conference: 'ICON 2019'
 tech:
   - Deep Learning
   - Knowledge Graphs

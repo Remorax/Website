@@ -1,14 +1,17 @@
 ---
-date: '3'
-title: 'Ontology Enrichment using LSTM'
-cover: './OntoEnricher_diag.png'
-external: 'https://github.com/Remorax/SIREN-Research/tree/master/OntoEnricher'
+date: '2'
+title: 'Ontology Enrichment from Text'
+cover: './OntoEnricher_diag.jpg'
+external: 'https://github.com/SIREN-DST/Ontology-Enrichment'
+conference: 'WWW 2021'
 tech:
   - Deep Learning
-  - Knowledge Graphs
-  - IRE
   - NLP
+  - DBPedia
+  - Concept Extraction
 show: 'true'
 ---
 
-A Deep Learning solution to Ontology Enrichment. We use an LSTM with an integrated (path-based and distributional) model to semantically understand sentence structure in order to extract relevant concepts and relationships.
+End-to-end semi-automated Deep Learning-based ontology enrichment pipeline that traverses **linguistic dependency paths** to extract concepts & instances embedded in words, phrases \& sentences using **learned path representations**. Beats SOTA on enrichment of multiple ontologies
+
+**Submitted to [WWW 2021](http://www2021.thewebconf.org/).**

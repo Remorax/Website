@@ -5,17 +5,13 @@ skills:
   - NLP
   - IRE
   - Deep Learning
-  - Machine Learning
-  - Semantic Web
   - Text Mining
-  - Ontologies
-  - Knowledge Graphs
+  - Knowledge Representation
+  - Semantic Web
 ---
 
-Hello! I'm Vivek, an **IRE** researcher at [IIIT Hyderabad](https://www.iiit.ac.in/), where I am currently pursuing my B.Tech and MS by Research in Computer Science.
+Hello! I'm Vivek, an MS student and Research Assistant at [IIIT Hyderabad](https://www.iiit.ac.in/) working in the area of Knowledge Representation and Reasoning (KRR).
 
-My research work primarily revolves around **ontologies** and **knowledge graphs** and I am currently working on the application of Deep Learning models such as LSTMs in the field of Ontology Enrichment from Text.
+I have 2+ years of research experience working on Ontologies and Knowledge Graphs, which includes a recent summer internship at IBM Research. My work has resulted in submissions to several A\* conferences such as AAAI, WWW, ISWC etc.
 
-Before starting out as a researcher, I worked as a Student Developer for [XWiki](https://www.xwiki.org/xwiki/bin/view/Main/WebHome) as part of [Google Summer of Code](https://summerofcode.withgoogle.com/) 2018.
-
-I am currently actively looking for research internships for 2020! Broadly, here are a few areas I am interested in:
+I am currently actively looking for full time employment opportunities in any area related to/using Ontologies and/or Knowledge Graphs post graduation in April 2021. More specifically, here are some areas I am interested in:
